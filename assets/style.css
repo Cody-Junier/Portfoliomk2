@@ -1,3 +1,82 @@
-* {
-    Margin: 0
+:root {
+    --one:#06B8F6;
+    --two:#080616;
+    --three:#BA55C9;
+    --four: #1352C7;
+    --five: #f65206;
 }
+* {
+    Margin: 0;
+    padding: 0;
+    color: var(--one);
+}
+body {
+    background-image: url(/assets/images/pexels-cottonbro-9669098.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    color: var(--two);
+    text-shadow: var(--one) 75%;
+    text-decoration: underline var(--five);
+}
+
+header nav {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+header a {
+    padding: 0 15px;
+    text-decoration: underline var(--one);
+    opacity: 110%;
+    color: var(--five);
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.mepic {
+    border-radius: 50%;
+    opacity: 75%;
+    margin-left: 350px;
+}
+
+#Aboutme {
+
+}
+
+#Aboutme h2 {
+    
+}
+
+#Aboutme p {
+    
+}
+
+#Works{
+
+}
+
+#Works h2{
+
+}
+
+#Reachme {
+
+}
+
+#Reachme h3{
+    
+}
+/* Need to add visibility to nav for desktop */
