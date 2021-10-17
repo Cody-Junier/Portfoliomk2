@@ -4,11 +4,12 @@
     --three:#BA55C9;
     --four: #1352C7;
     --five: #f65206;
+    --six: #FFFFFF;
 }
 * {
     Margin: 0;
     padding: 0;
-    color: var(--one);
+    color: var(--six);
 }
 body {
     background-image: url(/assets/images/pexels-cottonbro-9669098.jpg);
@@ -23,9 +24,9 @@ header {
 }
 
 header h1 {
-    color: var(--two);
+    color: var(--six);
     text-shadow: var(--one) 75%;
-    text-decoration: underline var(--five);
+    text-decoration: underline var(--three);
 }
 
 header nav {
@@ -35,8 +36,9 @@ header nav {
 header a {
     padding: 0 15px;
     text-decoration: underline var(--one);
+    text-shadow: 20px  var(--six);
     opacity: 110%;
-    color: var(--five);
+    color: var(--three);
     font-weight: bold;
 }
 
@@ -52,31 +54,47 @@ header a {
     margin-left: 350px;
 }
 
-#Aboutme {
+#Aboutme {}
 
-}
+#Aboutme h2 {}
 
-#Aboutme h2 {
-    
-}
-
-#Aboutme p {
-    
-}
+#Aboutme p {}
 
 #Works{
-
+    height: 500px;
 }
 
-#Works h2{
-
+#Works a{
+    opacity: 70%;
+}
+#Works a:hover{
+    opacity: 100%;
 }
 
-#Reachme {
-
-}
-
-#Reachme h3{
+.work {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 2 1 100%;
     
+
 }
+.p1{
+    padding: 100px;
+    background-image: url(/assets/images/digital-marketing-meeting.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex:2;
+}
+.p2{
+    padding: 50px;
+    background-image: url(/assets/images/trainer-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+/* Can I make a div take you to a site on click? */
+#Reachme {}
+
+#Reachme h3{}
 /* Need to add visibility to nav for desktop */
