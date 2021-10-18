@@ -15,6 +15,7 @@ body {
     background-image: url(/assets/images/pexels-cottonbro-9669098.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 header {
     display: flex;
@@ -56,14 +57,17 @@ header a {
 
 #Aboutme {}
 
-#Aboutme h2 {}
+#Aboutme h2 {
+    text-align: center;
+}
 
 #Aboutme p {}
 
 #Works{
-    height: 500px;
+    height: 300px;
 }
-
+#Works h2,
+#Works h3{text-align: center;}
 #Works a{
     opacity: 70%;
 }
@@ -85,13 +89,16 @@ header a {
     background-size: contain;
     background-repeat: no-repeat;
     flex:2;
+    border-left: var(--one) solid;
 }
 .p2{
     padding: 50px;
     background-image: url(/assets/images/trainer-3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    align-content: center;
     flex: 1;
+    border-left: var(--three) solid;
 }
 /* Can I make a div take you to a site on click? */
 #Reachme {}
