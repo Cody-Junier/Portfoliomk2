@@ -16,6 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    justify-content: center;
 }
 header {
     display: flex;
@@ -28,44 +29,62 @@ header h1 {
     color: var(--six);
     text-shadow: var(--one) 75%;
     text-decoration: underline var(--three);
+    font-size: 15vw ;
 }
 
 header nav {
     padding-top: 15px;
     padding-left: 20px;
+    display: flex;
+    flex-direction: row;
 }
 header a {
     padding: 0 15px;
-    text-decoration: underline var(--one);
+    text-decoration: underline var(--two);
     text-shadow: 20px  var(--six);
     opacity: 110%;
-    color: var(--three);
+    color: var(--six);
     font-weight: bold;
+    font-size: 7.5vw
+}
+header a:hover {
+    color: var(--five);
+    text-decoration: underline var(--six);
 }
 
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
 .mepic {
     border-radius: 50%;
-    opacity: 75%;
+    opacity: 90%;
     margin-left: 350px;
+    width: 40vw;
+    margin-top: 140px;
 }
 
-#Aboutme {}
+#Aboutme {
+    padding-top: 100px;
+}
 
 #Aboutme h2 {
     text-align: center;
+    font-size: 5vw;
+    
 }
 
-#Aboutme p {}
-
-#Works{
-    height: 300px;
+#Aboutme p {
+    font-size: 3vw;
+    text-align: center;
 }
+
+
+#Works h2{
+    padding-top: 250px;
+    font-size: 5vw;
+}
+#Works h3{
+    font-size: 3vw;
+}
+
+
 #Works h2,
 #Works h3{text-align: center;}
 #Works a{
@@ -80,7 +99,7 @@ header a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex: 2 1 100%;
-    
+    margin-top: 15px;
 
 }
 .p1{
@@ -101,7 +120,51 @@ header a {
     border-left: var(--three) solid;
 }
 /* Can I make a div take you to a site on click? */
-#Reachme {}
+#Reachme {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 150px;
+        
+}
 
-#Reachme h3{}
+#Reachme h2{text-decoration: underline var(--three);
+    font-size: 5vw;}
 /* Need to add visibility to nav for desktop */
+#Reachme a {
+    padding: 20px 20px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.links img {
+    width: 100px;
+}
+footer {text-align: end;}
+
+@media screen and (max-width: 575px) {
+    .mepic {
+        width: 350px;
+        padding-left: 12px;
+        margin-left: 0;
+    }
+    #Works a{
+      opacity: 100%;
+    }
+    header {
+        display: block;
+    }
+    header h1{
+        text-align: center;
+    }
+    #Works h2,
+    #Aboutme h2,
+    #Reachme h2
+     {
+        font-size: 44px;
+    }
+    #Aboutme p,
+    #Works h3{
+        font-size: 16px;
+    }
+}
