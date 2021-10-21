@@ -21,7 +21,7 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
@@ -29,7 +29,7 @@ header h1 {
     color: var(--six);
     text-shadow: var(--one) 75%;
     text-decoration: underline var(--three);
-    font-size: 15vw ;
+    font-size: 12vw ;
 }
 
 header nav {
@@ -40,7 +40,7 @@ header nav {
 }
 header a {
     padding: 0 15px;
-    text-decoration: underline var(--two);
+    text-decoration: none;
     text-shadow: 20px  var(--six);
     opacity: 110%;
     color: var(--six);
@@ -119,7 +119,7 @@ header a:hover {
     flex: 1;
     border-left: var(--three) solid;
 }
-/* Can I make a div take you to a site on click? */
+
 #Reachme {
     text-align: center;
     padding-top: 250px;
@@ -129,7 +129,6 @@ header a:hover {
 
 #Reachme h2{text-decoration: underline var(--three);
     font-size: 5vw;}
-/* Need to add visibility to nav for desktop */
 #Reachme a {
     padding: 20px 20px;
 }
