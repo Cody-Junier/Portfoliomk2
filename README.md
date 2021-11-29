@@ -2,11 +2,11 @@
 This is the second attempt at my Portfolio. Though sparse in details, it will serve as a reference to what I've done so far. With the capability to add more information, this page will showcase a bit of my personal style, as well as ways to reach out to me.
 
 https://cody-junier.github.io/Portfoliomk2/
-![background for webpage](assets\images\pexels-cottonbro-9669098.jpg)
+![background for webpage](assets/images/pexels-cottonbro-9669098.jpg)
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2021] [Cody Junier]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
