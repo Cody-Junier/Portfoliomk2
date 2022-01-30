@@ -111,19 +111,21 @@ header a:hover {
     border-left: var(--one) solid;
 }
 .p2{
-    padding: 50px;
-    background-image: url(./images/trainer-3.jpg);
-    background-size: contain;
+    padding: 75px;
+    background-image: url(./images/HeartComp.png);
+    background-size: 100px 75px;
     background-repeat: no-repeat;
+    background-position: center;
     align-content: center;
     flex: 1;
     border-left: var(--three) solid;
 }
 .p3{
-    padding: 100px;
+    padding: 75px 100px;
     background-image: url(./images/READMESshot.PNG);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     align-content: center;
     flex: 2;
     border-left: var(--three) solid;
